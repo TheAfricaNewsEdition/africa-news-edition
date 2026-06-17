@@ -48,40 +48,6 @@ window.NEWS_POSTS = [
     featured: false
   },
 
-  {
-    file: "welcome.html",
-    title: "A new chapter for independent news",
-    date: "June 14, 2026",
-    category: "Editor's Note",
-    excerpt: "Why we built this paper, who it is for, and what we hope to publish in the months ahead.",
-    featured: false
-  },
 
-  {
-    file: "city-council-budget.html",
-    title: "City council passes contested transit budget",
-    date: "June 14, 2026",
-    category: "Politics",
-    excerpt: "After three nights of public hearings, the council approved a budget that doubles bus frequency on six routes.",
-    featured: false
-  },
-
-  {
-    file: "summer-reading.html",
-    title: "Six books to carry you through a slow summer",
-    date: "June 11, 2026",
-    category: "Culture",
-    excerpt: "A short list from our editors — half fiction, half not, all worth the weight in your bag.",
-    featured: false
-  },
-
-  {
-    file: "harbor-festival.html",
-    title: "The harbor festival returns, quieter than before",
-    date: "June 7, 2026",
-    category: "Local",
-    excerpt: "Fewer vendors, smaller crowds, and a kind of calm the organizers say they did not plan for.",
-    featured: false
-  }
 
 ];
