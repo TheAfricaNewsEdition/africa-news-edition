@@ -1,0 +1,59 @@
+name: Inject back-link script
+
+# Runs on every push that touches a news page. For each .html file in news/
+# that contains a class="masthead" element but does not yet reference
+# back-link.js, the job injects <script src="../back-link.js"></script>
+# before </body> and commits the change back to the branch.
+#
+# Loop-safe: the job only commits when files actually change. A bot push
+# with no diffs produces no follow-up commit, so it cannot re-trigger
+# itself indefinitely.
+#
+# Requirements:
+#   Repo Settings → Actions → General → Workflow permissions
+#   must be set to "Read and write permissions" for the bot to push.
+
+on:
+  push:
+    paths:
+      - 'news/**/*.html'
+      - 'back-link.js'
+      - '.github/workflows/inject-back-link.yml'
+      - '.github/scripts/inject_back_link.py'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  inject:
+    runs-on: ubuntu-latest
+    # Skip if this push was made by the bot itself (extra belt-and-braces).
+    if: ${{ github.actor != 'github-actions[bot]' }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Inject back-link script where needed
+        run: python3 .github/scripts/inject_back_link.py
+
+      - name: Commit and push if anything changed
+        run: |
+          if [ -z "$(git status --porcelain news/)" ]; then
+            echo "No changes — nothing to commit."
+            exit 0
+          fi
+          git config user.name  'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add news/
+          git commit -m 'chore: auto-inject back-link script into news pages'
+          git push

@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Africa News Edition - US World Cup Visa Chaos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Source Sans Pro', sans-serif;
+            color: #222222;
+            background-color: #F5F5F2;
+            line-height: 1.7;
+        }
+        
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            background-color: #FFFFFF;
+            box-shadow: 0 0 30px rgba(0,0,0,0.15);
+        }
+        
+        /* MASTHEAD */
+        .masthead {
+            background: linear-gradient(135deg, #1C3557 0%, #1C3557 100%);
+            color: white;
+            padding: 40px 50px;
+            text-align: center;
+            border-bottom: 6px solid #C89B3C;
+        }
+        
+        .masthead-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+            font-size: 11px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #C89B3C;
+            font-weight: 700;
+        }
+        
+        .publication-title {
+            margin: 15px 0;
+        }
+        
+        .publication-title .the {
+            display: inline;
+            font-size: 16px;
+            letter-spacing: 2px;
+            color: white;
+            font-weight: 400;
+        }
+        
+        .publication-title h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 66px;
+            font-weight: 700;
+            margin: 5px 0;
+            line-height: 1.1;
+        }
+        
+        .publication-title .africa {
+            color: #C89B3C;
+        }
+        
+        .publication-title .news-edition {
+            display: inline;
+            font-size: 16px;
+            letter-spacing: 2px;
+            color: white;
+            margin-left: 8px;
+            font-weight: 400;
+        }
+        
+        .masthead-tagline {
+            font-size: 12px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #C89B3C;
+            margin-top: 20px;
+            font-weight: 600;
+        }
+        
+        /* ARTICLE HEADER */
+        .article-header {
+            padding: 60px 50px 35px;
+            background: linear-gradient(to bottom, #faf8f2, #ffffff);
+            border-bottom: 3px solid #C89B3C;
+        }
+        
+        .article-section-label {
+            font-size: 11px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #C89B3C;
+            font-weight: 700;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .article-section-label::after {
+            content: '';
+            flex: 1;
+            height: 2px;
+            background-color: #C89B3C;
+            margin-left: 15px;
+        }
+        
+        .article-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 72px;
+            font-weight: 700;
+            color: #222222;
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
+        
+        .article-summary {
+            font-size: 19px;
+            line-height: 1.8;
+            color: #222222;
+            max-width: 800px;
+            font-weight: 600;
+        }
+        
+        /* HERO IMAGE */
+        .hero-section {
+            position: relative;
+            height: 450px;
+            background: linear-gradient(135deg, rgba(28, 53, 87, 0.4), rgba(200, 155, 60, 0.3)), url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 450"><rect fill="%231C3557" width="1200" height="450"/></svg>');
+            background-size: cover;
+            background-position: center;
+            overflow: hidden;
+        }
+        
+        .hero-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .hero-caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0,0,0,0.7);
+            color: white;
+            padding: 20px 50px;
+            font-size: 13px;
+            font-style: italic;
+            border-top: 3px solid #C89B3C;
+        }
+        
+        /* MAIN CONTENT */
+        .content-wrapper {
+            display: grid;
+            grid-template-columns: 2.15fr 0.85fr;
+            gap: 40px;
+            padding: 50px;
+        }
+        
+        .main-content {
+            column-count: 2;
+            column-gap: 30px;
+        }
+        
+        .main-content p {
+            font-size: 17px;
+            line-height: 1.8;
+            margin-bottom: 20px;
+            text-align: justify;
+            color: #222222;
+        }
+        
+        .main-content strong {
+            color: #1C3557;
+            font-weight: 700;
+        }
+        
+        /* PULL QUOTE */
+        .pull-quote {
+            column-span: all;
+            break-inside: avoid;
+            page-break-inside: avoid;
+            border-left: 5px solid #C89B3C;
+            padding: 25px 0 25px 30px;
+            margin: 40px 0;
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            font-style: italic;
+            line-height: 1.6;
+            color: #1C3557;
+            background-color: #F5F5F2;
+            padding: 25px 25px 25px 30px;
+        }
+        
+        /* CALLOUT BOX */
+        .callout-box {
+            background-color: #1C3557;
+            color: white;
+            padding: 30px;
+            margin: 35px 0;
+            border-left: 5px solid #C89B3C;
+            border-radius: 3px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        .callout-label {
+            font-size: 10px;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            color: #C89B3C;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+        
+        .callout-content {
+            font-size: 16px;
+            line-height: 1.7;
+            color: #F5F5F2;
+        }
+        
+        .callout-figure {
+            font-size: 28px;
+            font-weight: 700;
+            color: #C89B3C;
+            margin-bottom: 10px;
+        }
+        
+        
+        .callout-content strong {
+            color: #C89B3C;
+        }
+
+        /* SIDEBAR */
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            position: sticky;
+            top: 20px;
+        }
+        
+        .sidebar-box {
+            background-color: #F5F5F2;
+            border: 2px solid #1C3557;
+            border-left: 5px solid #C89B3C;
+            padding: 25px;
+            border-radius: 3px;
+        }
+        
+        .sidebar-box h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 22px;
+            color: #1C3557;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #C89B3C;
+            padding-bottom: 10px;
+        }
+        
+        .sidebar-box p {
+            font-size: 14px;
+            line-height: 1.7;
+            color: #222222;
+            margin-bottom: 12px;
+        }
+        
+        .sidebar-box li {
+            font-size: 14px;
+            line-height: 1.7;
+            color: #222222;
+            margin-left: 20px;
+            margin-bottom: 10px;
+        }
+        
+        .timeline-item {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 25px;
+            padding-bottom: 25px;
+            border-bottom: 1px solid #C89B3C;
+        }
+        
+        .timeline-item:last-child {
+            border-bottom: none;
+        }
+        
+        .timeline-year {
+            font-weight: 700;
+            color: #C89B3C;
+            min-width: 50px;
+        }
+        
+        .timeline-content {
+            font-size: 13px;
+            line-height: 1.6;
+            color: #222222;
+        }
+        
+        /* ARTICLE IMAGE INLINE */
+        .article-image {
+            float: left;
+            width: 40%;
+            margin: 0 25px 20px 0;
+            border-radius: 3px;
+            border: 3px solid #C89B3C;
+        }
+        
+        .article-image-caption {
+            font-size: 12px;
+            font-style: italic;
+            color: #222222;
+            border-left: 3px solid #C89B3C;
+            padding-left: 10px;
+            margin-top: -3px;
+        }
+        
+        /* DIVIDER */
+        .section-divider {
+            height: 3px;
+            background-color: #C89B3C;
+            margin: 40px 0;
+        }
+        
+        /* FOOTER */
+        .footer {
+            background-color: #1C3557;
+            color: white;
+            padding: 40px 50px;
+            text-align: center;
+            border-top: 6px solid #C89B3C;
+        }
+        
+        .footer-contact {
+            margin-bottom: 20px;
+        }
+        
+        .footer-contact a {
+            color: #C89B3C;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 600;
+            font-size: 14px;
+        }
+        
+        .footer-tagline {
+            color: #C89B3C;
+            font-size: 11px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-top: 15px;
+            font-weight: 600;
+        }
+        
+        /* RESPONSIVE */
+        @media (max-width: 1024px) {
+            .content-wrapper {
+                grid-template-columns: 1fr;
+            }
+            
+            .main-content {
+                column-count: 1;
+            }
+            
+            .article-title {
+                font-size: 42px;
+            }
+            
+            .hero-section {
+                height: 350px;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .masthead {
+                padding: 30px 20px;
+            }
+            
+            .publication-title h1 {
+                font-size: 42px;
+            }
+            
+            .article-header {
+                padding: 30px 20px;
+            }
+            
+            .article-title {
+                font-size: 32px;
+            }
+            
+            .content-wrapper {
+                padding: 30px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- MASTHEAD -->
+        <div class="masthead">
+            <div class="masthead-top">
+                <span>SPECIAL EDITION: THE WORLD CUP</span>
+                <span>JUNE 2026</span>
+            </div>
+            <div class="publication-title">
+                <span class="the">The</span>
+                <h1><span class="africa">Africa</span> News Edition</h1>
+                <span class="news-edition">News Edition</span>
+            </div>
+            <div class="masthead-tagline">Independent. In-Depth. Africa-Centric.</div>
+        </div>
+        
+        <!-- ARTICLE HEADER -->
+        <div class="article-header">
+            <div class="article-section-label">SPECIAL REPORT • WORLD CUP 2026</div>
+            <h1 class="article-title">SPECIAL: WORLD CUP CHAOS</h1>
+            <h2 style="font-family: 'Playfair Display', serif; font-size: 26px; color:#1C3557; margin-top:10px; font-weight:600;">The US' World Cup Travel Warnings Are All Coming True</h2>
+            <p class="article-summary">Players, referees, and officials are being banned, denied entry, searched on the runway, or checked with sniffer dogs upon entering the US for the 2026 World Cup—before a ball has even been kicked.</p>
+        </div>
+        
+        <!-- HERO IMAGE AREA -->
+        <div class="hero-section">
+            <img src="data:image/jpeg;base64,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" alt="FIFA World Cup action" class="hero-image">
+            <div class="hero-caption">FIFA President Gianni Infantino presents President Trump with the inaugural FIFA Peace Prize in December 2025—weeks before widespread visa denials began affecting World Cup participants.</div>
+        </div>
+        
+        <!-- MAIN CONTENT -->
+        <div class="content-wrapper">
+            <div class="main-content">
+                <p>
+                    Here is a partial list of what has been happening on the eve of the world's greatest football tournament before a ball has even been kicked—a chronicle of administrative chaos, inconsistent enforcement, and troubling precedent-setting that raises serious questions about <strong>FIFA's commitment to inclusive global sports governance</strong>.
+                </p>
+                
+                <div class="pull-quote">
+                    "The international community is watching. These are not security threats. These are world-class athletes and officials being treated like criminals."
+                </div>
+                
+                <h2 style="font-family: 'Playfair Display', serif; font-size: 28px; color: #1C3557; margin: 30px 0 20px 0; border-bottom: 2px solid #C89B3C; padding-bottom: 10px;">The Pattern of Denials</h2>
+                
+                <p>
+                    <strong>Senegal and Uzbekistan squads</strong> were forced to undergo security screening on the tarmac in 31°C (87.8°F) heat rather than inside the cooler airport building—a symbolic but meaningful distinction that raised questions about intentional discomfort and differential treatment.
+                </p>
+                
+                <p>
+                    <strong>Omar Artan</strong>, officially recognized as <strong>Africa's best referee</strong> and the 2025 CAF Men's Referee of the Year, was sent back from Miami despite traveling on a <strong>diplomatic passport</strong>—an extraordinary breach of international protocol that sent shockwaves through global football governance.
+                </p>
+                
+                <p>
+                    <strong>Aymen Hussein</strong>, an Iraq World Cup star, was held for <strong>seven hours</strong> by US immigration officials and subjected to intensive questioning that his team characterized as unnecessarily adversarial. The <strong>Iraq team photographer</strong> was similarly denied entry despite holding a valid visa.
+                </p>
+                
+                <div class="callout-box">
+                    <div class="callout-label">Journalist Concerns</div>
+                    <div class="callout-content">
+                        The <strong>AIPS (International Association of Sports Press)</strong> formally called on FIFA to address what they characterized as "unacceptable visa issues" preventing <strong>African and Iranian journalists</strong> from covering the tournament. Their warnings went largely unheeded.
+                    </div>
+                </div>
+                
+                <h2 style="font-family: 'Playfair Display', serif; font-size: 28px; color: #1C3557; margin: 30px 0 20px 0; border-bottom: 2px solid #C89B3C; padding-bottom: 10px;">FIFA's Non-Response</h2>
+                
+                <p>
+                    When confronted with evidence of widespread visa denials and discriminatory treatment, <strong>FIFA issued a stark statement</strong>: "FIFA is not involved in host country immigration policy, and decisions made by the United States regarding visa eligibility will not be reversed."
+                </p>
+                
+                <p>
+                    This abdication of responsibility stands in sharp contrast to FIFA's aggressive interventionism on other matters. <strong>Two years ago, FIFA stripped Indonesia of the U-20 World Cup</strong> because the Indonesian government would not grant visas to Israel. At that moment, FIFA suddenly became deeply invested in national visa policies.
+                </p>
+                
+                <div class="pull-quote">
+                    When the U.K. considered denying North Koreans visas to play at the 1966 World Cup, FIFA told them they would immediately relocate the tournament. The UK backed down.
+                </div>
+                
+                <p>
+                    The double standard is undeniable. <strong>FIFA can move mountains when it suits them</strong>. Yet when African referees, Asian journalists, and Middle Eastern athletes face categorical denial, FIFA suddenly becomes powerless and uninvolved.
+                </p>
+                
+                <h2 style="font-family: 'Playfair Display', serif; font-size: 28px; color: #1C3557; margin: 30px 0 20px 0; border-bottom: 2px solid #C89B3C; padding-bottom: 10px;">The Scale of the Crisis</h2>
+                
+                <p>
+                    <strong>90% of Moroccan fans with valid World Cup tickets</strong> have been denied entry to the United States. <strong>14 members of Iran's backroom staff</strong> have also had their visas revoked. <strong>Switzerland's star player, Breel Embolo</strong>, was prevented for three days from even boarding his team's flight from Zurich to Los Angeles until his country formally complained.
+                </p>
+                
+                <p>
+                    According to observers monitoring the situation, US immigration officials apparently <strong>confused Ebola with Embolo</strong>—suggesting a level of incompetence or carelessness that should alarm anyone concerned with professional standards in government.
+                </p>
+                
+                <div class="callout-box">
+                    <div class="callout-figure">100%</div>
+                    <div class="callout-label">Iran National Team Status</div>
+                    <div class="callout-content">
+                        The US <strong>refused to even host Iran's national team</strong>, forcing them to base operations in <strong>Tijuana, Mexico</strong> instead. Iran must fly in on the day of each match. Additionally, the US revoked Iran's World Cup ticket allocation for supporters—preventing Iranian fans from attending their own nation's games.
+                    </div>
+                </div>
+                
+                <p>
+                    This is a World Cup like no other. The tournament has become defined not by football excellence or athletic achievement, but by <strong>administrative dysfunction, discriminatory visa enforcement, and the stark collapse of FIFA's supposed commitment to global inclusion</strong>.
+                </p>
+                
+                <div class="section-divider"></div>
+                
+                <h2 style="font-family: 'Playfair Display', serif; font-size: 28px; color: #1C3557; margin: 30px 0 20px 0; border-bottom: 2px solid #C89B3C; padding-bottom: 10px;">The Hypocrisy Question</h2>
+                
+                <p>
+                    Do you recall all the fuss Western media made about <strong>human rights, LGBTQ+ rights, and workers' rights in Qatar</strong>? Editorial boards across Europe and North America published thousands of columns condemning Qatar's record and questioning whether FIFA should have awarded them the tournament.
+                </p>
+                
+                <p>
+                    Yet now, on US soil, <strong>categorical discrimination against entire nations is unfolding in real time</strong>—and the same media outlets have been largely silent. <strong>Infantino awarded Trump with the inaugural FIFA Peace Prize</strong> in early December 2025. The timing and symbolism were unmistakable.
+                </p>
+                
+                <p>
+                    <strong>Do you remember the principle?</strong> Or was it ever really about human rights?
+                </p>
+            </div>
+            
+            <!-- SIDEBAR -->
+            <div class="sidebar">
+                <div class="sidebar-box">
+                    <h3>Timeline: When FIFA Chose Sides</h3>
+                    <div class="timeline-item">
+                        <div class="timeline-year">2015</div>
+                        <div class="timeline-content">Former UEFA president Michel Platini launches civil and criminal proceedings against FIFA and Gianni Infantino, claiming he was victim of a plot to block his bid to run global football's governing body.</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">2024</div>
+                        <div class="timeline-content">FIFA strips Indonesia of the U-20 World Cup because they won't grant visas to Israel.</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">Dec 2025</div>
+                        <div class="timeline-content">Infantino awards Trump with inaugural FIFA Peace Prize ahead of 2026 World Cup.</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">June 2026</div>
+                        <div class="timeline-content">Visa denials and travel restrictions affect hundreds of athletes, officials, journalists, and fans during World Cup preparations.</div>
+                    </div>
+                </div>
+                
+                <div class="sidebar-box">
+                    <h3>The Historical Parallel</h3>
+                    <p>
+                        <strong>1966: The African Boycott</strong>
+                    </p>
+                    <p>
+                        African nations collectively <strong>boycotted the 1966 World Cup</strong> to protest a <strong>discriminatory FIFA ruling</strong> that forced the entire African continent, along with Asia and Oceania, to compete for just <strong>one solitary qualifying spot</strong>. In contrast, Europe was awarded <strong>10 guaranteed places</strong>.
+                    </p>
+                    <p>
+                        Additionally, there were simmering geopolitical tensions as CAF had recently demanded the exclusion of South Africa from FIFA competitions due to its government's apartheid policies.
+                    </p>
+                    <p>
+                        Led by influential figures like Ghanaian sports director <strong>Ohene Djan</strong> and Ethiopian CAF administrator <strong>Tessema Yidnekatchew</strong>, the newly independent African nations used the boycott as a powerful political tool to demand respect and equal representation on the global sporting stage.
+                    </p>
+                    <p style="margin-top: 20px; font-weight: 600; color: #1C3557;">
+                        So…hint…hint
+                    </p>
+                </div>
+                
+                <div class="sidebar-box">
+                    <h3>Key Takeaways</h3>
+                    <ul>
+                        <li>FIFA claims it has no power over immigration policy</li>
+                        <li>Yet it previously moved tournaments over visa issues</li>
+                        <li>African players, referees, and fans face systematic barriers</li>
+                        <li>Qatar's human rights record was heavily criticized</li>
+                        <li>US discrimination has been met with silence</li>
+                        <li>Historical precedent: Africans have boycotted before</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- FOOTER -->
+        <div class="footer">
+            <div class="footer-contact">
+                <a href="#">theafricanewsedition.com</a>
+                <a href="#">@AfricaNewsEdit</a>
+                <a href="#">Contact Us</a>
+            </div>
+            <div class="footer-tagline">Independent. In-Depth. Africa-Centric. Coverage.</div>
+        </div>
+    </div>
+<script src="../back-link.js"></script>
+</body>
+</html>
