@@ -21,7 +21,14 @@
    • Only ONE story should have featured: true. All others: false.
    ===================================================================== */
 
-window.NEWS_POSTS = [
+window.NEWS_POSTS = [{
+  file: "africa-news-briefing.html",
+  title: "June 22 News Briefing",
+  date: "June 22, 2026",
+  category: "Editor's Note",
+  excerpt: "Keep your house clean like you are expecting...",
+  featured: false
+},
 {
   file: "editor-briefing-full_1.html",
   title: "June 16 News Update",
@@ -33,7 +40,7 @@ window.NEWS_POSTS = [
   {
     file: "us-world-cup-visa-chaos-fixed.html",
     title: "The US' World Cup Travel Warnings Are All Coming True",
-    date: "June 2026",
+    date: "June 16, 2026",
     category: "World Cup",
     excerpt: "Players, referees, and officials banned, denied entry, or searched on the runway — before a ball has been kicked.",
     featured: false
