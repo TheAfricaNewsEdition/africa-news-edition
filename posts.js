@@ -21,7 +21,16 @@
    • Only ONE story should have featured: true. All others: false.
    ===================================================================== */
 
-window.NEWS_POSTS = [{
+window.NEWS_POSTS = [
+{
+  file: "africa-news-full-edition.html",
+  title: "June 22 Full Edition",
+  date: "June 22, 2026",
+  category: "Editor's Note",
+  excerpt: "DR Congo Reports 956 Confirmed Ebola Cases, 247 Deaths...",
+  featured: true
+},
+{
   file: "africa-news-briefing.html",
   title: "June 22 News Briefing",
   date: "June 22, 2026",
@@ -35,7 +44,7 @@ window.NEWS_POSTS = [{
   date: "June 16, 2026",
   category: "Editor's Note",
   excerpt: "Why we built this paper...",
-  featured: true
+  featured: false
 },
   {
     file: "us-world-cup-visa-chaos-fixed.html",
