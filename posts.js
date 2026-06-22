@@ -26,7 +26,7 @@ window.NEWS_POSTS = [
   file: "africa-news-full-edition.html",
   title: "June 22 Full Edition",
   date: "June 22, 2026",
-  category: "Editor's Note",
+  category: "Full Briefings",
   excerpt: "DR Congo Reports 956 Confirmed Ebola Cases, 247 Deaths...",
   featured: true
 },
@@ -34,7 +34,7 @@ window.NEWS_POSTS = [
   file: "africa-news-briefing.html",
   title: "June 22 News Briefing",
   date: "June 22, 2026",
-  category: "Editor's Note",
+  category: "Short Briefings",
   excerpt: "Keep your house clean like you are expecting...",
   featured: false
 },
