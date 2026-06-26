@@ -22,13 +22,21 @@
    ===================================================================== */
 
 window.NEWS_POSTS = [
+   {
+  file: "africa-news-full-edition-June-26-2026.html",
+  title: "June 26 Full Edition",
+  date: "June 26, 2026",
+  category: "Full Editions",
+  excerpt: "DRC Faces Record-Breaking Ebola Outbreak with Unprecedented First-Month Caseload...",
+  featured: true
+},
 {
   file: "africa-news-full-edition.html",
   title: "June 22 Full Edition",
   date: "June 22, 2026",
-  category: "Full Briefings",
+  category: "Full Editions",
   excerpt: "DR Congo Reports 956 Confirmed Ebola Cases, 247 Deaths...",
-  featured: true
+  featured: false
 },
 {
   file: "africa-news-briefing.html",
@@ -42,7 +50,7 @@ window.NEWS_POSTS = [
   file: "editor-briefing-full_1.html",
   title: "June 16 News Update",
   date: "June 16, 2026",
-  category: "Editor's Note",
+  category: "Full Editions",
   excerpt: "Why we built this paper...",
   featured: false
 },
@@ -59,7 +67,7 @@ window.NEWS_POSTS = [
     file: "why-is-it-always-us.html",
     title: "Why Is It Always Us?",
     date: "June 16, 2026",
-    category: "Opinion",
+    category: "Opinion Pieces",
     excerpt: "To paraphrase Mario Balotelli — on the strange weight of being a global people in a hostile news cycle.",
     featured: false
   },
