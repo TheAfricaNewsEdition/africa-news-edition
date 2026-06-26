@@ -23,6 +23,14 @@
 
 window.NEWS_POSTS = [
    {
+  file: "world-cup-special-full.html",
+  title: "Ghana's World Cup Unlucky Streak Lives On",
+  date: "June 22, 2026",
+  category: "World Cup",
+  excerpt: "Football remains a beautiful game. But beauty alone cannot compensate for officiating decisions that leave players, supporters...",
+  featured: false
+},
+   {
   file: "africa-news-compact-briefing-June-26-2026.html",
   title: "June 26 Short Edition",
   date: "June 26, 2026",
