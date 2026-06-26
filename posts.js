@@ -23,6 +23,14 @@
 
 window.NEWS_POSTS = [
    {
+  file: "africa-news-compact-briefing-June-26-2026.html",
+  title: "June 26 Short Edition",
+  date: "June 26, 2026",
+  category: "Short Editions",
+  excerpt: "DRC Faces Record-Breaking Ebola Outbreak Amid Humanitarian Crisis...",
+  featured: false
+},
+   {
   file: "africa-news-full-edition-June-26-2026.html",
   title: "June 26 Full Edition",
   date: "June 26, 2026",
@@ -40,15 +48,15 @@ window.NEWS_POSTS = [
 },
 {
   file: "africa-news-briefing.html",
-  title: "June 22 News Briefing",
+  title: "June 22 Short Edition",
   date: "June 22, 2026",
-  category: "Short Briefings",
+  category: "Short Editions",
   excerpt: "Keep your house clean like you are expecting...",
   featured: false
 },
 {
   file: "editor-briefing-full_1.html",
-  title: "June 16 News Update",
+  title: "June 16 Full Edition",
   date: "June 16, 2026",
   category: "Full Editions",
   excerpt: "Why we built this paper...",
