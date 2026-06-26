@@ -17,7 +17,7 @@ Plus the **`news/`** folder, where each story is its own HTML file.
 2. Near the top you'll see lines like:
    ```js
    name: "THE AFRICA NEWS EDITION",
-   description: "Daily dispatches on culture, politics, and the in-between.",
+   description: "📌The Africa News Edition is the only curated platform that brings together top stories from all five regions of the continent — East, West, Central, Southern, and North Africa.",
    ```
 3. Change the words **between the quotes**. Keep the quotes and the commas.
 4. Save.
