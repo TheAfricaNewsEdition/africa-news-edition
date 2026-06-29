@@ -23,6 +23,14 @@
 
 window.NEWS_POSTS = [
    {
+  file: "editors-dispatch-full.html",
+  title: "Scattered Thoughts & Reflections from Another Week Covering Africa",
+  date: "June 28, 2026",
+  category: "Opinion Pieces",
+  excerpt: "Now, my good man, is not the time to be making enemies…",
+  featured: true
+},
+   {
   file: "world-cup-special-full.html",
   title: "Ghana's World Cup Unlucky Streak Lives On",
   date: "June 22, 2026",
@@ -44,7 +52,7 @@ window.NEWS_POSTS = [
   date: "June 26, 2026",
   category: "Full Editions",
   excerpt: "DRC Faces Record-Breaking Ebola Outbreak with Unprecedented First-Month Caseload...",
-  featured: true
+  featured: false
 },
 {
   file: "africa-news-full-edition.html",
