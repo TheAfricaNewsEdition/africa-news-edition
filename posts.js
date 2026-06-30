@@ -23,12 +23,20 @@
 
 window.NEWS_POSTS = [
    {
+  file: "africa-news-special-sa-migrant-crisis.html",
+  title: "30 June: South Africa’s Anti-Migrant Deadline in Action",
+  date: "June 30, 2026",
+  category: "Opinion Pieces",
+  excerpt: "For weeks, anti-migrant groups in South Africa called for 30 June to be the day by which both undocumented and documented African migrants should leave...",
+  featured: true
+},
+   {
   file: "editors-dispatch-full.html",
   title: "Scattered Thoughts & Reflections from Another Week Covering Africa",
   date: "June 28, 2026",
   category: "Opinion Pieces",
   excerpt: "Now, my good man, is not the time to be making enemies…",
-  featured: true
+  featured: false
 },
    {
   file: "world-cup-special-full.html",
