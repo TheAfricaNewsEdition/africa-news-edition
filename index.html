@@ -354,13 +354,14 @@ nav.primary a:hover::after { width: 26px; }
 }
 .featured-art {
   aspect-ratio: 4 / 5;
-  background: linear-gradient(135deg, var(--navy) 0%, var(--blue) 50%, var(--gold) 100%);
+  background: url("https://www.whatarethe7continents.com/wp-content/uploads/2011/12/continent-africa.png");
+  background-size: contain;
   border: 6px solid #fff;
   box-shadow: var(--shadow);
   position: relative;
   overflow: hidden;
 }
-.featured-art::before {
+/* .featured-art::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -380,7 +381,7 @@ nav.primary a:hover::after { width: 26px; }
   font-weight: bold;
   letter-spacing: -4px;
   text-shadow: 4px 4px 14px rgba(0, 0, 0, 0.35);
-}
+} */
 
 /* ===================== FILTERS ===================== */
 .filters {
