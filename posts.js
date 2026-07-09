@@ -23,6 +23,14 @@
 
 window.NEWS_POSTS = [
    {
+  file: "africa-news-briefing-June-9.html",
+  title: "July 9 Short Edition",
+  date: "July 9, 2026",
+  category: "Short Editions",
+  excerpt: "Facing delayed payments and mounting pressure, healthcare workers at the front lines of Congo's Ebola outbreak have...",
+  featured: false
+},
+   {
   file: "africa-news-special-sa-migrant-crisis.html",
   title: "30 June: South Africa’s Anti-Migrant Deadline in Action",
   date: "June 30, 2026",
