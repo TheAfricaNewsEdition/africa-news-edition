@@ -23,6 +23,14 @@
 
 window.NEWS_POSTS = [
    {
+  file: "africa-news-full-edition-June-9.html",
+  title: "July 9 Full Edition",
+  date: "July 9, 2026",
+  category: "Full Editions",
+  excerpt: "The healthcare workers at the epicenter of Congo's Ebola outbreak are walking off their jobs to protest delays in...",
+  featured: true
+},
+   {
   file: "africa-news-briefing-June-9.html",
   title: "July 9 Short Edition",
   date: "July 9, 2026",
@@ -36,7 +44,7 @@ window.NEWS_POSTS = [
   date: "June 30, 2026",
   category: "Opinion Pieces",
   excerpt: "For weeks, anti-migrant groups in South Africa called for 30 June to be the day by which both undocumented and documented African migrants should leave...",
-  featured: true
+  featured: false
 },
    {
   file: "editors-dispatch-full.html",
