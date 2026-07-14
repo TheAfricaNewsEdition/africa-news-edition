@@ -23,6 +23,14 @@
 
 window.NEWS_POSTS = [
    {
+  file: "africa-news-briefing-July-13.html",
+  title: "July 13 Short Edition",
+  date: "July 13, 2026",
+  category: "Short Editions",
+  excerpt: "The Democratic Republic of Congo's Ebola outbreak has accelerated research into treatment options, with the first patients enrolled in a...",
+  featured: false
+},
+   {
   file: "africa-news-full-edition-July-13.html",
   title: "July 13 Full Edition",
   date: "July 13, 2026",
