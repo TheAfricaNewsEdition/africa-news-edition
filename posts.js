@@ -23,12 +23,20 @@
 
 window.NEWS_POSTS = [
    {
+  file: "africa-news-full-edition-July-13.html",
+  title: "July 13 Full Edition",
+  date: "July 13, 2026",
+  category: "Full Editions",
+  excerpt: "Chad's government has announced additional emergency measures after renewed insecurity along its borders forced more civilians to flee their...",
+  featured: true
+},
+   {
   file: "africa-news-full-edition-June-9.html",
   title: "July 9 Full Edition",
   date: "July 9, 2026",
   category: "Full Editions",
   excerpt: "The healthcare workers at the epicenter of Congo's Ebola outbreak are walking off their jobs to protest delays in...",
-  featured: true
+  featured: false
 },
    {
   file: "africa-news-briefing-June-9.html",
