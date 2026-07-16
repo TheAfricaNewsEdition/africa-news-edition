@@ -23,6 +23,14 @@
 
 window.NEWS_POSTS = [
    {
+  file: "africa-news-opinion-july-16.html",
+  title: "SOUTH AFRICA - Backlash to its Xenophobic Attacks",
+  date: "July 16, 2026",
+  category: "Opinion Pieces",
+  excerpt: "The wave of anti-migrant protests and violent attacks against African migrants in South Africa has sparked a significant domestic, continental, and...",
+  featured: true
+},
+   {
   file: "africa-news-briefing-July-13.html",
   title: "July 13 Short Edition",
   date: "July 13, 2026",
@@ -36,7 +44,7 @@ window.NEWS_POSTS = [
   date: "July 13, 2026",
   category: "Full Editions",
   excerpt: "Chad's government has announced additional emergency measures after renewed insecurity along its borders forced more civilians to flee their...",
-  featured: true
+  featured: false
 },
    {
   file: "africa-news-full-edition-June-9.html",
