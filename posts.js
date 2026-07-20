@@ -23,12 +23,20 @@
 
 window.NEWS_POSTS = [
    {
+  file: "The-Africa-News-Edition-Special-Koulamallah-Letter.html",
+  title: "SPECIAL - African Letter to Gianni Infantino from N'Djamena, Chad",
+  date: "July 19, 2026",
+  category: "World Cup",
+  excerpt: "I wrote this letter because my continent's silence was being mistaken for consent. — Adjib Koulamallah",
+  featured: true
+},
+   {
   file: "africa-news-opinion-july-16.html",
   title: "SOUTH AFRICA - Backlash to its Xenophobic Attacks",
   date: "July 16, 2026",
   category: "Opinion Pieces",
   excerpt: "The wave of anti-migrant protests and violent attacks against African migrants in South Africa has sparked a significant domestic, continental, and...",
-  featured: true
+  featured: false
 },
    {
   file: "africa-news-briefing-July-13.html",
