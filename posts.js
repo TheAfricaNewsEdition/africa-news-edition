@@ -23,12 +23,20 @@
 
 window.NEWS_POSTS = [
    {
+  file: "africa-news-full-edition-aug-03.html",
+  title: "August 3 Full Edition",
+  date: "August 3, 2026",
+  category: "Full Editions",
+  excerpt: "The Ebola outbreak in the Democratic Republic of Congo has already become the second-worst on record, and it is spreading much faster than previous outbreaks, the nation’s health ministry reported on...",
+  featured: true
+},
+   {
   file: "The-Africa-News-Edition-Special-Koulamallah-Letter.html",
   title: "SPECIAL - African Letter to Gianni Infantino from N'Djamena, Chad",
   date: "July 19, 2026",
   category: "World Cup",
   excerpt: "I wrote this letter because my continent's silence was being mistaken for consent. — Adjib Koulamallah",
-  featured: true
+  featured: false
 },
    {
   file: "africa-news-opinion-july-16.html",
