@@ -23,6 +23,14 @@
 
 window.NEWS_POSTS = [
    {
+  file: "africa-news-brief-edition-aug-03.html",
+  title: "August 3 Short Edition",
+  date: "August 3, 2026",
+  category: "Short Editions",
+  excerpt: "The Ebola outbreak in the Democratic Republic of Congo (DRC) is now the second-deadliest ever recorded, with 1,521 deaths in under three months — spreading five times faster than...",
+  featured: false
+},
+   {
   file: "africa-news-full-edition-aug-03.html",
   title: "August 3 Full Edition",
   date: "August 3, 2026",
