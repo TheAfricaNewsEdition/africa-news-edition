@@ -23,6 +23,14 @@
 
 window.NEWS_POSTS = [
    {
+  file: "africa-trending-aug13-48hours.html",
+  title: "August 13 - 48 Hour Regional Roundup",
+  date: "August 13, 2026",
+  category: "The last 48 Hours in Africa",
+  excerpt: "The single greatest skill you can develop is the ability to stay in a great mood in the absence of things to be in a great mood about.",
+  featured: true
+},
+   {
   file: "africa-news-brief-edition-aug-03.html",
   title: "August 3 Short Edition",
   date: "August 3, 2026",
@@ -36,7 +44,7 @@ window.NEWS_POSTS = [
   date: "August 3, 2026",
   category: "Full Editions",
   excerpt: "The Ebola outbreak in the Democratic Republic of Congo has already become the second-worst on record, and it is spreading much faster than previous outbreaks, the nation’s health ministry reported on...",
-  featured: true
+  featured: false
 },
    {
   file: "The-Africa-News-Edition-Special-Koulamallah-Letter.html",
