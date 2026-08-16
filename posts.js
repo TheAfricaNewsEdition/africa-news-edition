@@ -23,12 +23,20 @@
 
 window.NEWS_POSTS = [
    {
+  file: "africa-news-edition-aug16.html",
+  title: "August 16 - 48 Hour Regional Roundup",
+  date: "August 16, 2026",
+  category: "The last 48 Hours in Africa",
+  excerpt: "Keep your fears to yourself, but share your courage with others.",
+  featured: true
+},
+   {
   file: "africa-trending-aug13-48hours.html",
   title: "August 13 - 48 Hour Regional Roundup",
   date: "August 13, 2026",
   category: "The last 48 Hours in Africa",
   excerpt: "The single greatest skill you can develop is the ability to stay in a great mood in the absence of things to be in a great mood about.",
-  featured: true
+  featured: false
 },
    {
   file: "africa-news-brief-edition-aug-03.html",
