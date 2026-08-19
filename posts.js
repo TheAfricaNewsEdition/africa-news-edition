@@ -23,12 +23,20 @@
 
 window.NEWS_POSTS = [
    {
+  file: "africa-news-edition-aug20.html",
+  title: "August 20 - 48 Hour Regional Roundup",
+  date: "August 20, 2026",
+  category: "The last 48 Hours in Africa",
+  excerpt: "Justice, like fire, even if covered with a veil, still burns.",
+  featured: true
+},
+   {
   file: "africa-news-edition-aug16.html",
   title: "August 16 - 48 Hour Regional Roundup",
   date: "August 16, 2026",
   category: "The last 48 Hours in Africa",
   excerpt: "Keep your fears to yourself, but share your courage with others.",
-  featured: true
+  featured: false
 },
    {
   file: "africa-trending-aug13-48hours.html",
