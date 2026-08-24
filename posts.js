@@ -23,12 +23,20 @@
 
 window.NEWS_POSTS = [
    {
+  file: "the-africa-news-edition-aug25.html",
+  title: "August 25 - 48 Hour Regional Roundup",
+  date: "August 25, 2026",
+  category: "The last 48 Hours in Africa",
+  excerpt: "A good leader takes a little more than his share of the blame…and…a little less than his share of the credit.",
+  featured: true
+},
+   {
   file: "africa-news-edition-aug20.html",
   title: "August 20 - 48 Hour Regional Roundup",
   date: "August 20, 2026",
   category: "The last 48 Hours in Africa",
   excerpt: "Justice, like fire, even if covered with a veil, still burns.",
-  featured: true
+  featured: false
 },
    {
   file: "africa-news-edition-aug16.html",
