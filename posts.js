@@ -23,6 +23,14 @@
 
 window.NEWS_POSTS = [
    {
+  file: "opinion-bishop-patience.html",
+  title: "An Open Letter To Bishop Patience Rwabwogo Museveni",
+  date: "August 25, 2026",
+  category: "Opinion Pieces",
+  excerpt: "Dear Patience Rwabwogo Museveni, congratulations on your consecration as Bishop. You are...",
+  featured: false
+},
+   {
   file: "the-africa-news-edition-aug25.html",
   title: "August 25 - 48 Hour Regional Roundup",
   date: "August 25, 2026",
