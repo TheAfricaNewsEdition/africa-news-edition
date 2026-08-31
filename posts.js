@@ -23,6 +23,14 @@
 
 window.NEWS_POSTS = [
    {
+  file: "the-africa-news-edition-aug31.html",
+  title: "August 31 - 48 Hour Regional Roundup",
+  date: "August 31, 2026",
+  category: "The last 48 Hours in Africa",
+  excerpt: "Politics is the art of making your selfish desires seem like a national interest.",
+  featured: true
+},
+   {
   file: "opinion-bishop-patience.html",
   title: "An Open Letter To Bishop Patience Rwabwogo Museveni",
   date: "August 25, 2026",
@@ -36,7 +44,7 @@ window.NEWS_POSTS = [
   date: "August 25, 2026",
   category: "The last 48 Hours in Africa",
   excerpt: "A good leader takes a little more than his share of the blame…and…a little less than his share of the credit.",
-  featured: true
+  featured: false
 },
    {
   file: "africa-news-edition-aug20.html",
