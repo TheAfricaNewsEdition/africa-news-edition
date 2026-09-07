@@ -23,12 +23,20 @@
 
 window.NEWS_POSTS = [
    {
+  file: "the-africa-news-edition-sep7.html",
+  title: "September 7 - 48 Hour Regional Roundup",
+  date: "September 7, 2026",
+  category: "The last 48 Hours in Africa",
+  excerpt: " Life is a one-time offer, use it well.",
+  featured: true
+},
+   {
   file: "the-africa-news-edition-sep4.html",
   title: "September 4 - 48 Hour Regional Roundup",
   date: "September 4, 2026",
   category: "The last 48 Hours in Africa",
   excerpt: "All tyrannies rule through fraud and force — once the fraud is exposed, they must rely exclusively…on force.",
-  featured: true
+  featured: false
 },
    {
   file: "the-africa-news-edition-aug31.html",
