@@ -23,12 +23,20 @@
 
 window.NEWS_POSTS = [
    {
+  file: "the-africa-news-edition-sep10.html",
+  title: "September 10 - 48 Hour Regional Roundup",
+  date: "September 10, 2026",
+  category: "The last 48 Hours in Africa",
+  excerpt: "Even if you’re dancing in water, your enemies will still accuse you of…raising dust.",
+  featured: true
+},
+   {
   file: "the-africa-news-edition-sep7.html",
   title: "September 7 - 48 Hour Regional Roundup",
   date: "September 7, 2026",
   category: "The last 48 Hours in Africa",
   excerpt: " Life is a one-time offer, use it well.",
-  featured: true
+  featured: false
 },
    {
   file: "the-africa-news-edition-sep4.html",
