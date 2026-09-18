@@ -23,12 +23,20 @@
 
 window.NEWS_POSTS = [
    {
+  file: "the-africa-news-edition-sep17.html",
+  title: "September 18 - 48 Hour Regional Roundup",
+  date: "September 18, 2026",
+  category: "The last 48 Hours in Africa",
+  excerpt: "Only fools are jealous of their own friends. I pray all of mine are successful.",
+  featured: true
+},
+   {
   file: "the-africa-news-edition-sep15.html",
   title: "September 15 - 48 Hour Regional Roundup",
   date: "September 15, 2026",
   category: "The last 48 Hours in Africa",
   excerpt: "Character is like pregnancy; it cannot be hidden forever.",
-  featured: true
+  featured: false
 },
    {
   file: "the-africa-news-edition-sep10.html",
