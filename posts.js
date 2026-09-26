@@ -23,12 +23,20 @@
 
 window.NEWS_POSTS = [
    {
+  file: "the-africa-news-edition-sep26.html",
+  title: "September 26 - 48 Hour Regional Roundup",
+  date: "September 26, 2026",
+  category: "The last 48 Hours in Africa",
+  excerpt: "Decolonize your mind. Water was never meant to be sold.",
+  featured: true
+},
+   {
   file: "the-africa-news-edition-sep22.html",
   title: "September 22 - 48 Hour Regional Roundup",
   date: "September 22, 2026",
   category: "The last 48 Hours in Africa",
   excerpt: "Every morning everyone is paid exactly twenty four hours.",
-  featured: true
+  featured: false
 },
    {
   file: "the-africa-news-edition-sep17.html",
