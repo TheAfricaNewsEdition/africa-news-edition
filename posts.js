@@ -23,12 +23,20 @@
 
 window.NEWS_POSTS = [
    {
+  file: "the-africa-news-edition-sep29.html",
+  title: "September 29 - 48 Hour Regional Roundup",
+  date: "September 29, 2026",
+  category: "The last 48 Hours in Africa",
+  excerpt: "Do a good deed and throw it in the river. One day it will come back to you…in the desert.",
+  featured: true
+},
+   {
   file: "the-africa-news-edition-sep26.html",
   title: "September 26 - 48 Hour Regional Roundup",
   date: "September 26, 2026",
   category: "The last 48 Hours in Africa",
   excerpt: "Decolonize your mind. Water was never meant to be sold.",
-  featured: true
+  featured: false
 },
    {
   file: "the-africa-news-edition-sep22.html",
