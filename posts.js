@@ -23,12 +23,20 @@
 
 window.NEWS_POSTS = [
    {
+  file: "the-africa-news-edition-oct6.html",
+  title: "October 6 - 48 Hour Regional Roundup",
+  date: "October 6, 2026",
+  category: "The last 48 Hours in Africa",
+  excerpt: "An enemy who sees the error of his ways ceases to be an enemy.",
+  featured: true
+},
+   {
   file: "the-africa-news-edition-oct3.html",
   title: "October 3 - 48 Hour Regional Roundup",
   date: "October 3, 2026",
   category: "The last 48 Hours in Africa",
   excerpt: "People have beautiful things to say about you, but…you must die first.",
-  featured: true
+  featured: false
 },
    {
   file: "the-africa-news-edition-sep29.html",
