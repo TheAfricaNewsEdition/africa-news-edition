@@ -23,12 +23,20 @@
 
 window.NEWS_POSTS = [
    {
+  file: "the-africa-news-edition-oct10.html",
+  title: "October 10 - 48 Hour Regional Roundup",
+  date: "October 10, 2026",
+  category: "The last 48 Hours in Africa",
+  excerpt: "If justice really existed, prisons would be filled with politicians and not the poor.",
+  featured: true
+},
+   {
   file: "the-africa-news-edition-oct6.html",
   title: "October 6 - 48 Hour Regional Roundup",
   date: "October 6, 2026",
   category: "The last 48 Hours in Africa",
   excerpt: "An enemy who sees the error of his ways ceases to be an enemy.",
-  featured: true
+  featured: false
 },
    {
   file: "the-africa-news-edition-oct3.html",
