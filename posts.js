@@ -23,12 +23,20 @@
 
 window.NEWS_POSTS = [
    {
+  file: "the-africa-news-edition-oct13.html",
+  title: "October 13 - 48 Hour Regional Roundup",
+  date: "October 13, 2026",
+  category: "The last 48 Hours in Africa",
+  excerpt: "Life is like a coin. You can spend it any way you wish, but you can only spend it…once.",
+  featured: true
+},
+   {
   file: "the-africa-news-edition-oct10.html",
   title: "October 10 - 48 Hour Regional Roundup",
   date: "October 10, 2026",
   category: "The last 48 Hours in Africa",
   excerpt: "If justice really existed, prisons would be filled with politicians and not the poor.",
-  featured: true
+  featured: false
 },
    {
   file: "the-africa-news-edition-oct6.html",
