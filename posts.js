@@ -23,12 +23,20 @@
 
 window.NEWS_POSTS = [
    {
+  ile: "the-africa-news-edition-oct17.html",
+  title: "October 17 - 48 Hour Regional Roundup",
+  date: "October 17, 2026",
+  category: "The last 48 Hours in Africa",
+  excerpt: "Life is like looking for your phone, that, most of the time, is in your hand.",
+  featured: true
+},
+   {
   file: "the-africa-news-edition-oct13.html",
   title: "October 13 - 48 Hour Regional Roundup",
   date: "October 13, 2026",
   category: "The last 48 Hours in Africa",
   excerpt: "Life is like a coin. You can spend it any way you wish, but you can only spend it…once.",
-  featured: true
+  featured: false
 },
    {
   file: "the-africa-news-edition-oct10.html",
