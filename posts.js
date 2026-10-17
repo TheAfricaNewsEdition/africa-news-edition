@@ -23,7 +23,7 @@
 
 window.NEWS_POSTS = [
    {
-  ile: "the-africa-news-edition-oct17.html",
+  file: "the-africa-news-edition-oct17.html",
   title: "October 17 - 48 Hour Regional Roundup",
   date: "October 17, 2026",
   category: "The last 48 Hours in Africa",
