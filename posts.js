@@ -23,12 +23,20 @@
 
 window.NEWS_POSTS = [
    {
+  file: "nobel-committee-article.html",
+  title: "INSIDE THE NOBEL COMMITTEE",
+  date: "October 19, 2026",
+  category: "Opinion Pieces",
+  excerpt: "I am a member of the Norwegian Nobel Committee. An Explanation of Why Judge Navanethem Pillay—and Not You-Know-Who. BY PETER GIRNUS",
+  featured: true
+},
+   {
   file: "the-africa-news-edition-oct17.html",
   title: "October 17 - 48 Hour Regional Roundup",
   date: "October 17, 2026",
   category: "The last 48 Hours in Africa",
   excerpt: "Life is like looking for your phone, that, most of the time, is in your hand.",
-  featured: true
+  featured: false
 },
    {
   file: "the-africa-news-edition-oct13.html",
