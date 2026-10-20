@@ -23,12 +23,20 @@
 
 window.NEWS_POSTS = [
    {
+  file: "the-africa-news-edition-oct20.html",
+  title: "October 20 - 48 Hour Regional Roundup",
+  date: "October 20, 2026",
+  category: "The last 48 Hours in Africa",
+  excerpt: "The life of the Dead is placed in the memory of the Living.",
+  featured: true
+},
+   {
   file: "nobel-committee-article.html",
   title: "INSIDE THE NOBEL COMMITTEE",
   date: "October 19, 2026",
   category: "Opinion Pieces",
   excerpt: "I am a member of the Norwegian Nobel Committee. An Explanation of Why Judge Navanethem Pillay—and Not You-Know-Who. BY PETER GIRNUS",
-  featured: true
+  featured: false
 },
    {
   file: "the-africa-news-edition-oct17.html",
