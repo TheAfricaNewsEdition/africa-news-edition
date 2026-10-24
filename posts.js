@@ -23,12 +23,20 @@
 
 window.NEWS_POSTS = [
    {
+  file: "the-africa-news-edition-oct24.html",
+  title: "October 24 - 48 Hour Regional Roundup",
+  date: "October 24, 2026",
+  category: "The last 48 Hours in Africa",
+  excerpt: "When you look at your mother, you are looking at the purest love you will ever know.",
+  featured: true
+},
+   {
   file: "the-africa-news-edition-oct20.html",
   title: "October 20 - 48 Hour Regional Roundup",
   date: "October 20, 2026",
   category: "The last 48 Hours in Africa",
   excerpt: "The life of the Dead is placed in the memory of the Living.",
-  featured: true
+  featured: false
 },
    {
   file: "nobel-committee-article.html",
