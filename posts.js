@@ -23,12 +23,20 @@
 
 window.NEWS_POSTS = [
    {
+  file: "the-africa-news-edition-oct27.html",
+  title: "October 27 - 48 Hour Regional Roundup",
+  date: "October 27, 2026",
+  category: "The last 48 Hours in Africa",
+  excerpt: "In theory, there should be no difference between theory and practice, but in practice, there is.",
+  featured: true
+},
+   {
   file: "the-africa-news-edition-oct24.html",
   title: "October 24 - 48 Hour Regional Roundup",
   date: "October 24, 2026",
   category: "The last 48 Hours in Africa",
   excerpt: "When you look at your mother, you are looking at the purest love you will ever know.",
-  featured: true
+  featured: false
 },
    {
   file: "the-africa-news-edition-oct20.html",
