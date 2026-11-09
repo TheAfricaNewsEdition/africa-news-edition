@@ -23,12 +23,20 @@
 
 window.NEWS_POSTS = [
    {
+  file: "the-africa-news-edition-nov10.html",
+  title: "November 10 - 48 Hour Regional Roundup",
+  date: "November 10, 2026",
+  category: "The last 48 Hours in Africa",
+  excerpt: "I screamed at God for the starving children — until I realized that the starving children were God Himself, screaming back at me.",
+  featured: true
+},
+   {
   file: "the-africa-news-edition-oct27.html",
   title: "October 27 - 48 Hour Regional Roundup",
   date: "October 27, 2026",
   category: "The last 48 Hours in Africa",
   excerpt: "In theory, there should be no difference between theory and practice, but in practice, there is.",
-  featured: true
+  featured: false
 },
    {
   file: "the-africa-news-edition-oct24.html",
