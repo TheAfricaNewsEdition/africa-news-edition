@@ -23,12 +23,20 @@
 
 window.NEWS_POSTS = [
    {
+  file: "the-africa-news-edition-nov14.html",
+  title: "November 14 - 48 Hour Regional Roundup",
+  date: "November 14, 2026",
+  category: "The last 48 Hours in Africa",
+  excerpt: "The further society drifts from the truth, the more it will hate those who speak it.",
+  featured: true
+},
+   {
   file: "the-africa-news-edition-nov10.html",
   title: "November 10 - 48 Hour Regional Roundup",
   date: "November 10, 2026",
   category: "The last 48 Hours in Africa",
   excerpt: "I screamed at God for the starving children — until I realized that the starving children were God Himself, screaming back at me.",
-  featured: true
+  featured: false
 },
    {
   file: "the-africa-news-edition-oct27.html",
