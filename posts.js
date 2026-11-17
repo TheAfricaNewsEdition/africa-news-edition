@@ -23,12 +23,20 @@
 
 window.NEWS_POSTS = [
    {
+  file: "the-africa-news-edition-nov17.html",
+  title: "November 17 - 48 Hour Regional Roundup",
+  date: "November 17, 2026",
+  category: "The last 48 Hours in Africa",
+  excerpt: "What can be asserted without evidence, can be also dismissed without evidence.",
+  featured: true
+},
+   {
   file: "the-africa-news-edition-nov14.html",
   title: "November 14 - 48 Hour Regional Roundup",
   date: "November 14, 2026",
   category: "The last 48 Hours in Africa",
   excerpt: "The further society drifts from the truth, the more it will hate those who speak it.",
-  featured: true
+  featured: false
 },
    {
   file: "the-africa-news-edition-nov10.html",
